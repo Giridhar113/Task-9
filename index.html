@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TCS News</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background:#000;
+    color:#fff;
+}
+
+.container{
+    width:90%;
+    margin:60px auto;
+}
+
+.cards{
+    display:flex;
+    gap:40px;
+}
+
+.card{
+    width:100%;
+    max-width:350px;
+    background:#000;
+}
+
+.card img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+    display:block;
+}
+
+.card-content{
+    padding:25px 5px;
+}
+
+.card-content h2{
+    font-size:26px;
+    font-weight:400;
+    line-height:1.4;
+    margin-bottom:18px;
+}
+
+.card-content h2 a{
+    color:#fff;
+    text-decoration:none;
+}
+
+.card-content h2 a:hover{
+    text-decoration:underline;
+}
+
+.date{
+    font-size:16px;
+    color:#aaa;
+}
+
+@media(max-width:1200px){
+    .cards{
+        flex-wrap:wrap;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="cards">
+
+        <!-- Card 1 -->
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/1847160801/photo/customer-with-bank-manager-in-office-stock-photo.jpg?s=1024x1024&w=is&k=20&c=DR3ijZp-wZSOYHL1YMHT6-f-gG8BWozp6yHUKr-7UBc=" alt="">
+            <div class="card-content">
+                <h2>
+                    <a href="#">
+                        Janata Sahakari Bank Selects TCS BaNCS™ to Power Next-Gen Banking Experience
+                    </a>
+                </h2>
+                <div class="date">02 Feb 2026</div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+            <img src="https://plus.unsplash.com/premium_photo-1661661903883-6d0d444ace70?w=500&auto=format&fit=crop&q=60" alt="">
+            <div class="card-content">
+                <h2>
+                    TCS Global Study Identifies Critical Gaps in AI Adoption among Retailers
+                </h2>
+                <div class="date">29 Jan 2026</div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1516834611397-8d633eaec5d0?q=80&w=435&auto=format&fit=crop" alt="">
+            <div class="card-content">
+                <h2>
+                    TCS Deepens its LATAM Reach with a New Brazil Campus; To Add 1,600 Jobs
+                </h2>
+                <div class="date">27 Jan 2026</div>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/1147956878/photo/textile-industry-in-india.jpg?s=1024x1024&w=is&k=20&c=xznYmrPS05ZKoNT2igrkucTcnhx-rJ-djPzlzxMzHRI=" alt="">
+            <div class="card-content">
+                <h2>
+                    Kalmar Partners with TCS for Strategic AI-powered Transformation of its Enterprise IT Landscape
+                </h2>
+                <div class="date">22 Jan 2026</div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
